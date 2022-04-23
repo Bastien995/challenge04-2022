@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.position{
+    position: absolute;
+    top:7rem;
+    left:12rem;
+    width: 340px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08) ;
+}
+.displayFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.elementBaniere {
+    width: 500px;
+}
+.elementSvg img{
+    width: 15px;
+}
+.elementSvg{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elementBaniere{
+    display: flex;
+    align-items: center;
+    *justify-content: space-between;
+
+}
+.elementTexte{
+    width: 288px;
+}
+.backgroundColor{
+    background-color: gainsboro;
+    margin: 3rem 0;
+    padding: 24px 0;
+}
+.cards img{
+    width: 300px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 1rem;
+}
+.flexContainer{
+    display: flex;
+    height: 490px;
+    align-items: center;
+}
+.Content{
+    width: 307px;
+}
+.flexContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageOpposite{
+    width: 400px;
+}
+.flexContainer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexContainer2_reverse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.flexContainer5{
+    display: flex;
+}
+.carousel-items{
+    display: flex;
+}

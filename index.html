@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\style.css">
+    <script src="js\bootstrap.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <style>
+	
+            .categorie1 a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .button1 {
+          background-color: white;
+          color: black;
+          border: 1px solid #000000;
+          height: 40px;
+          margin-top: 20px;
+          margin-left: 20px;
+          font-weight: bold;
+          width:107px;
+        }
+        
+        .button2 {
+          background-color: black;
+          color: white;
+          border: 1px solid #000000;
+          height: 40px;
+          margin-top: 20px;
+          margin-left: 20px;
+          font-weight: bold;
+          width:81px;
+        }
+        
+        .button3 {
+          background-color: white;
+          color: black;
+          border: 1px solid #000000;
+          height: 40px;
+          margin-top: 20px;
+          margin-left: 20px;
+          font-weight: bold;
+          width:40px;
+        }
+        
+        .nav3 a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .nav3 li{
+            list-style-type: none;
+            padding-top: 10px;
+            
+        }
+        
+        .button4 {
+          background-color: black;
+          color: white;
+          border: 1px solid white;
+          height: 40px;
+          margin-top: 25px;
+          margin-left: 260px;
+        
+          font-size: 16px;
+          width:140px;
+        }
+        
+        
+        
+        
+        
+        
+        </style>
+        
+        
+        
+        
+        <nav class="small shadow" style="display: flex; background-color: white; font-size: 14px; width: 100%; height: 74px;">
+        
+                <div>
+                    <img src="img/logo.svg" style="width: 91px;height: 34px;margin-left: 20px;margin-top: 20px;">
+                    
+                </div>
+        
+        
+                <div style="display: flex;padding-top: 18px;">
+        
+                    
+                    <div class="categorie1" style="margin-top: 10px; padding-right: 15px;padding-left: 15px;"> 
+                        <a href="#">Categories</a>
+                    </div>
+        
+        
+        
+        
+        
+        
+        
+                    <form class="recherche" style="" action="#" style="">
+                        
+                        <img src="img/search.png" style=" width: 15px;height: 15px;position: absolute;margin-top: 15px;margin-left: 5px;">
+        
+                        <input class="pc2" style="width: 535px; border-radius: 50px;border: 1px solid grey;height: 46px;background-color: #F0F2F5;" type="search"
+                            placeholder="Rechercher"
+                            name="recherche">
+                      
+                    </form>
+        
+        
+                </div>
+        
+               
+                <div class="categorie1" style="margin-top: 30px;padding-left: 25px;"> 
+                        <a href="index2.html">Udemy Business</a>
+                </div>
+        
+        
+                <div class="categorie1" style="margin-top: 30px;padding-left: 25px;"> 
+                        <a href="page_2.html">Enseigner sur Udemy</a>
+                </div>
+        
+                <div>
+                    <img src="img/paniers.png" style="width: 20px;height: 20px;margin-top: 30px;margin-left: 20px;">
+                </div>
+        
+                <button class="button button1">Se connecter</button>
+                <button class="button button2">S'inscrire</button>
+                <button class="button button3">
+                <img src="img/toile.png" style="width: 20px;height: 20px;">
+        
+                </button>
+        
+        
+        
+            </nav>
+        
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 position">
+                        <h1>Vous débutez sur Udemy ? C'est votre jour de chance.</h1>
+                        <p>
+                            Les cours sont à partir de 13,99 $US. Profitez de votre offre réservée aux nouveaux participants avant son expiration.
+                        </p>
+                    </div>
+                    <div class="col-lg-1">
+                        <img src="image1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Une large sélection de cours</h1>
+            <p>Choisissez parmi 185 000 vidéos de cours en ligne. De nouveaux cours sont ajoutés tous les mois</p>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Python</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Excel</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Developpement Web</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">JavaScript</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Sciences des donnees</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Certification AWS</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Dessin</button>
+                      </li>
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="TabContentContainer">
+                            <div class="TabTopContent">
+                                <h1>Développez vos opportunités de carrière avec Python</h1>
+                                <p>Que vous travailliez dans le machine learning ou dans la finance, dans le développement Web ou dans la science des données, le langage Python est l'une des compétences les plus importantes à acquérir. La syntaxe simple de Python convient particulièrement aux applications bureautiques, Web et commerciales.</p>
+                            </div>
+                            <div class="TabCarousel">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="imageUdemy\2281794_46a6_28 (2).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="imageUdemy\2281794_46a6_28 (2).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="imageUdemy\2281794_46a6_28 (2).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                            </div>
+                            <a href="#" class="TabButtonLink"><span>Decouvrez Python</span></a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><div class="TabContentContainer">
+                        <div class="TabTopContent">
+                            <h1>Analysez et visualisez des données avec Excel</h1>
+                            <p>Quelle que soit l'industrie dans laquelle vous travaillez, Microsoft Office Excel est un logiciel de feuille de calcul indispensable pour l'organisation et la présentation des données. Excel propose des fonctions, des formules et des tableaux croisés dynamiques pour vous aider à rassembler et à analyser d'importants ensembles</p>
+                        </div>
+                        <div class="TabCarousel">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Card title</h5>
+                                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    <img src="2559100_dcb9_4 (2).jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="2923266_4297_3 (2).jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="3250670_4785 (3).jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        </div>
+                        <a href="#" class="TabButtonLink"><span>Decouvrez Excel</span></a>
+                    </div>
+                </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><div class="TabContentContainer">
+                        <div class="TabTopContent">
+                            <h1>Créez des sites Web et des applications avec nos cours de développement Web</h1>
+                            <p>Le monde du développement Web est aussi grand que l'Internet-même. Une partie de notre vie sociale et professionnelle se déroule sur Internet, ce qui amène les nouvelles industries à créer, à gérer et à déboguer les sites Web et les applications dont nous dépendons de plus en plus chaque jour.</p>
+                        </div>
+                            <div class="TabCarousel">
+                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="imageUdemy\2281794_46a6_28 (2).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="imageUdemy\2281794_46a6_28 (2).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item">
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="imageUdemy\2281794_46a6_28 (2).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        <a href="#" class="TabButtonLink"><span>Decouvrez Developpement web</span></a>
+                    </div></div>
+                  </div>
+            </div>
+        </div>
+        <div class="container-fluid backgroundColor">
+            <div class="container displayFlex">
+                <div class="elementBaniere">
+                    <div class="elementSvg">
+                        <img src="bouton-jouer.png" alt="">
+                    </div>
+                    <div class="elementTexte">Obtenez des compétences à la demande grâce à plus de 185 000 cours vidéo</div>
+                </div>
+                <div class="elementBaniere">
+                    <div class="elementSvg">
+                        <img src="marquer-comme-star-preferee.png" alt="">
+                    </div>
+                    <div class="elementTexte">Choisissez des cours enseignés par des formateurs confirmés</div>
+                </div>
+                <div class="elementBaniere">
+                    <div class="elementSvg">
+                        <img src="loop.png" alt="">
+                    </div>
+                    <div class="elementTexte">Apprenez à votre rythme et bénéficiez d'un accès illimité sur mobile et ordinateur de bureau</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container grid">
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-design-2x-v2.jpg" alt="">
+                    <div class="LibeleImage"><span>Design</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-development-2x-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Développement</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-marketing-2x-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Marketing</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-it-and-software-2x-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Informatique et logiciels</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-development-2x-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Développement personnel</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-business-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Business</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-photography-2x-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Photographie</span></div>
+                </div>
+                <div class="cards">
+                    <img src="imageUdemy\lohp-category-music-2x-v2 (1).jpg" alt="">
+                    <div class="LibeleImage"><span>Musique</span></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid backgroundColor">
+            <h2>Featured topics by category</h2>
+            <div class="container flexContainer">
+                <div class="Content">
+                    <h2>Développement</h2>
+                    <div class="ContentElement">
+                        <a href="">Python</a>
+                        <p>34 567 135 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">Développement Web</a>
+                        <p>10 856 091 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">Machine Learning</a>
+                        <p>6 813 591 participants</p>
+                    </div>
+                    <a href="#"><span>Explore more topics</span></a>
+                </div>
+                <div class="Content">
+                    <h2>Business</h2>
+                    <div class="ContentElement">
+                        <a href="">Analyse financière</a>
+                        <p>1 166 214 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">SQL</a>
+                        <p>5 525 058 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">PMP</a>
+                        <p>1 631 004 participants</p>
+                    </div>
+                </div>
+                <div class="Content">
+                    <h2>Informatique et logiciels</h2>
+                    <div class="ContentElement">
+                        <a href="">Certification AWS</a>
+                        <p>5 480 838 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">Piratage éthique</a>
+                        <p>10 434 097 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">Cybersécurité</a>
+                        <p>3 803 171 participants</p>
+                    </div>
+                </div>
+                <div class="Content">
+                    <h2>Design</h2>
+                    <div class="ContentElement">
+                        <a href="">Photoshop</a>
+                        <p>10 622 879 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">Conception graphique</a>
+                        <p>3 239 763 participants</p>
+                    </div>
+                    <div class="ContentElement">
+                        <a href="">Dessin</a>
+                        <p>2 381 220 participants</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container flexContainer2">
+                <img src="imageUdemy\instructor-1x-v3 (1).jpg" alt="">
+                <div class="imageOpposite">
+                    <h3>Devenir formateur</h3>
+                    <p>Nos formateurs du monde entier donnent des cours à des millions de participants sur Udemy. Nous vous offrons les outils et les compétences nécessaires pour enseigner ce que vous aimez.</p>
+                    <a href="#"><span>Commencer a enseigner des aujourd'hui</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid backgroundColor">
+            <div class="container flexContainer3">
+                <h3>Des entreprises de toutes tailles nous font confiance</h3>
+                <div class="logo">
+                    <img src="imageUdemy\nasdaq-dark (1).svg" alt=""><img src="imageUdemy\volkswagen-dark (1).svg" alt=""><img src="imageUdemy\box-dark (1).svg" alt=""><img src="imageUdemy\netapp-dark (1).svg" alt=""><img src="imageUdemy\eventbrite-dark (1).svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container flexContainer2_reverse">
+                <img src="imageUdemy\ub-1x-v3 (1).jpg" alt="">
+                <div class="imageOpposite">
+                    <img src="imageUdemy\logo-ub.svg" alt="">
+                    <p>Donnez à votre équipe un accès illimité à +15 000 des meilleurs cours Udemy. Apprenez et améliorez vos compétences dans les domaines du commerce, de la technologie, de la conception et bien plus encore.</p>
+                    <a href="#"><span>Obtenez Udemy Business</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container flexContainer2">
+                <img src="imageUdemy\transform-1x-v3.jpg" alt="">
+                <div class="imageOpposite">
+                    <h3>Transformez votre vie grâce à l'apprentissage</h3>
+                    <p>Les participants du monde entier se lancent dans de nouvelles carrières, progressent dans leur domaine et enrichissent leur vie.</p>
+                    <a href="#"><span>Decouvrez Comment</span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav style="display: flex; width: 100%; height: 190px; background-color: #1C1D1F; font-size: 14px;">
+
+            <div class="nav3" style=" margin-top: 25px; margin-left: 20px;">
+                
+                <ul style="width: 280px;">	
+                        
+                        <li >
+                            <a href="#">Udemy Business</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Enseigner sur Udemy</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Téléchargez l'application</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">À propos d'Udemy</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Contactez-nous</a>
+                        </li>
+    
+                        
+                </ul>
+    
+            </div>
+    
+    
+            <div class="nav3" style="margin-top: 25px;">
+                
+                <ul style="width: 300px;">	
+                        
+                        <li >
+                            <a href="#">Carrières</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Blog</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Aide et support</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Affilié</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Investisseurs</a>
+                        </li>
+    
+                        
+                </ul>
+    
+            </div>
+    
+    
+    
+    <div class="nav3" style="margin-top: 25px;">
+                
+                <ul style="width: 310px;">	
+                        
+                        <li >
+                            <a href="#">Conditions</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Politique de confidentialité</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Plan du site</a>
+                        </li>
+    
+                        <li >
+                            <a href="#">Déclaration d'accessibilité</a>
+                        </li>
+    
+                        
+                </ul>
+    
+            </div>
+    
+    
+            <button class="button4"> 
+            <img src="img/toile2.png" style="width: 20px;height: 20px;margin-right: 5px;">Français
+    
+            </button>
+    
+    
+    
+            
+    </nav>
+    
+    
+    <nav style="width: 100%; height: 130px; background-color: #1C1D1F;">
+    
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                <img src="img/logo2.svg" style="width: 94px;height: 91px;margin-top: 30px;margin-left: 50px;">
+                </div>
+        
+    
+                <div>
+                <p style="color: white;font-size: 12px; margin-top: 70px; margin-right: 60px;">© 2022 Udemy, Inc.</p>
+                </div>
+    
+            </div>
+    
+    </nav>
+    </footer>
+</body>
+</html>
